@@ -1,0 +1,35 @@
+# Ignore Kafka bin directory
+bin/
+
+# macOS system files
+.DS_Store
+
+# IDE files
+.idea/
+
+# License and notice files
+LICENSE
+NOTICE
+
+# Configuration files
+kafka-security/config/
+
+# Data directories
+data/
+mtls/data/
+sasl_plain/data/
+ssl/data/
+
+# Library files
+libs/
+
+# License files
+licenses/
+
+# Log files
+logs/
+
+site-docs/
+
+config/*
+!config/kraft/
